@@ -30,7 +30,7 @@ card.innerHTML = `
   <p><strong>Email:</strong> ${developer.email}</p>
   <p><strong>Phone:</strong> ${developer.phone}</p>
   <p><strong>Skills:</strong> ${developer.skills}</p>
-  <p><strong>Bio:</strong> ${developer.bio}</p>
+  <p><strong>Bio:</strong> <i>${developer.bio}</i></p>
 `;
 
 // Append card to main, and main to body
