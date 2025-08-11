@@ -1,0 +1,58 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+
+.container {
+      width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+      width: 100%;
+  background-color: white;
+  padding: 24px 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+    box-shadow: 1px 2px 5px 2px;
+
+}
+
+.idAndActive {
+  color: #333;
+  padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: end;
+    align-items: center;
+
+}
+
+.card p {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+
+
+span {
+      padding: 2px 4px;
+      border-radius: 4px;
+}
